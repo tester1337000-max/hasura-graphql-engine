@@ -7391,6 +7391,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@remix-run/router@npm:1.23.1":
+  version: 1.23.1
+  resolution: "@remix-run/router@npm:1.23.1"
+  checksum: 776f821f54331331c61261df291765b4a99b1e127fb650180868885bea766fd5e65a7ed1bedf732d981ace593f73b00c4af29deda3d89769c193a476be542e2c
+  languageName: node
+  linkType: hard
+
 "@repeaterjs/repeater@npm:3.0.4, @repeaterjs/repeater@npm:^3.0.4":
   version: 3.0.4
   resolution: "@repeaterjs/repeater@npm:3.0.4"
@@ -19894,7 +19901,7 @@ __metadata:
     react-query: ^3.29.0
     react-redux: 7.2.4
     react-refresh: ^0.10.0
-    react-router: 3.2.6
+    react-router: 6.30.2
     react-router-redux: 4.0.8
     react-select: 5.7.3
     react-table: 6.11.5
@@ -21276,7 +21283,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"history@npm:3.3.0, history@npm:^3.0.0":
+"history@npm:3.3.0":
   version: 3.3.0
   resolution: "history@npm:3.3.0"
   dependencies:
@@ -30829,7 +30836,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"react-is@npm:^16.12.0, react-is@npm:^16.13.0, react-is@npm:^16.13.1, react-is@npm:^16.3.2, react-is@npm:^16.6.3, react-is@npm:^16.7.0, react-is@npm:^16.8.1":
+"react-is@npm:^16.12.0, react-is@npm:^16.13.1, react-is@npm:^16.3.2, react-is@npm:^16.6.3, react-is@npm:^16.7.0, react-is@npm:^16.8.1":
   version: 16.13.1
   resolution: "react-is@npm:16.13.1"
   checksum: f7a19ac3496de32ca9ae12aa030f00f14a3d45374f1ceca0af707c831b2a6098ef0d6bdae51bd437b0a306d7f01d4677fcc8de7c0d331eb47ad0f46130e53c5f
@@ -31148,21 +31155,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"react-router@npm:3.2.6":
-  version: 3.2.6
-  resolution: "react-router@npm:3.2.6"
+"react-router@npm:6.30.2":
+  version: 6.30.2
+  resolution: "react-router@npm:6.30.2"
   dependencies:
-    create-react-class: ^15.5.1
-    history: ^3.0.0
-    hoist-non-react-statics: ^3.3.2
-    invariant: ^2.2.1
-    loose-envify: ^1.2.0
-    prop-types: ^15.7.2
-    react-is: ^16.13.0
-    warning: ^3.0.0
+    "@remix-run/router": 1.23.1
   peerDependencies:
-    react: ^0.14.0 || ^15.0.0 || ^16.0.0
-  checksum: 1604dab702ce2dbf2b9754fc62e0ce78ad9ec359e8414a282e633d162bc7294b46fd85ef54fd2edf179a5ea299775d06c35d334edad0798174fd88e9f871f4ed
+    react: ">=16.8"
+  checksum: 680705e386a4356f4c4faaee3cc517fcebb0dc467a8dfeb7f34f5b6df1ca6572807f8e20061db30a4dc32a1a9c44fe3541366aeb9912defbeab25fffadb603f7
   languageName: node
   linkType: hard
 
